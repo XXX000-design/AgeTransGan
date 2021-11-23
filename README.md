@@ -58,7 +58,7 @@ python main_test.py
 ```
 
 ## Perfromance
-We shows the comparsion of previous protocol and our new protocol. Previous protocal test by the Face++ APIs in both age estimation and face verification, and use stable threshold when testing face verification. Our new protocal same using Face++ APIs to test face verification but using different threshold in different group. We trained our new age estimator with FFHQ-Aging dataset to use in the age estimation. The table shows performance on FFHQ-Aging for transferring Group-5 to other 9 groups
+The table shows performance on FFHQ-Aging for transferring Group-5 to other 9 groups, estimate age with our estimator and Face++. We also shows the defined threshold for each group to caculate our face verification rate.
 <table>
    <tr>
       <td>Age group</td>
