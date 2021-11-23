@@ -75,7 +75,7 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
    <tr>
       <td colspan="10" align="center">Average of Estimated Age</td>
    </tr>
-   <tr>
+<!--    <tr>
       <td>Raw data</td>
       <td>8.79</td>
       <td>18.03</td>
@@ -86,7 +86,7 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
       <td>51.9</td>
       <td>64.65</td>
       <td>74.8</td>
-   </tr>
+   </tr> -->
    <tr>
       <td>Face++</td>
       <td>9.81</td>
