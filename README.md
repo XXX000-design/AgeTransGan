@@ -142,9 +142,9 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
 
 
 ## Checkpoints Download
-[FFHQ-4Groups](https://drive.google.com/file/d/1zBuW5Br5RVzoaIEZxwSfx8Ec1M9lFKqI/view)
+[FFHQ-4Groups](https://drive.google.com/file/d/1YkibK_42YiumJePqUagZqlYkunKNv8B7/view?usp=sharing)
 
-[FFHQ-10Groups](https://drive.google.com/file/d/1f3SSNukEiqdC6EMfigexASVs5pq1ee0w/view?usp=sharing)
+[FFHQ-10Groups](https://drive.google.com/file/d/1a3GXTGjch9rl-_JRiIfM5cbM1jCPpQHY/view?usp=sharing)
 
 ## Training Networks
 Expected training times for the default configuration using Nvidia Titan RTX GPU:
