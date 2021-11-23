@@ -19,7 +19,7 @@ We offer two versions of our AgeTransGAN, one for 10-age-group and the other for
 1. Change the default input image 1.jpg in [./test/run_10group.sh](./test/run_10group.sh) or [./test/run_4group.sh](./test/run_4group.sh) for using the 10-group generator or 4-group generator. 
 ```
 > ./test/run_10group.sh
-python main.py --img_size 1024 --group 10 --batch_size 16 --snapshot ./snapshot/ffhq_10group_820k.pt --file img/1.jpg
+python main.py --img_size 1024 --group 10 --batch_size 16 --snapshot ./snapshot/ffhq_10group_910k.pt --file img/1.jpg
 deactivate
 ```
 ```
