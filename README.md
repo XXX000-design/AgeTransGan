@@ -88,7 +88,7 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
       <td>74.8</td>
    </tr>
    <tr>
-      <td>Previous</td>
+      <td>Face++</td>
       <td>9.81</td>
       <td>19.12</td>
       <td>23.5</td>
@@ -100,7 +100,7 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
       <td>72.33</td>
    </tr>
    <tr>
-      <td>New protocal</td>
+      <td>Provide estimator</td>
       <td><b>1.69</td>
       <td><b>4.1</td>
       <td><b>8.52</td>
@@ -115,7 +115,7 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
       <td colspan="10" align="center">Absolute Error / Verification Rate (%)</td>
    </tr>
    <tr>
-      <td>Previous</td>
+      <td>Face++</td>
       <td>1.02 / 16.03</td>
       <td>1.09 / 67.72</td>
       <td>0.88 / 95.97</td>
@@ -127,7 +127,7 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
       <td>2.47 / 81.73</td>
    </tr>
    <tr>
-      <td>New protocal</td>
+      <td>Provide estimator</td>
       <td><b>0.19 / 93.03</td>
       <td><b>0.79 / 96.45</td>
       <td><b>0.05 / 98.97</td>
