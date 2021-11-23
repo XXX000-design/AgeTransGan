@@ -112,31 +112,31 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
       <td><b>68.4</td>
    </tr>
    <tr>
-      <td colspan="10" align="center">Absolute Error / Verification Rate (%)</td>
+      <td colspan="10" align="center">Verification Rate (%)</td>
    </tr>
    <tr>
-      <td>Face++</td>
-      <td>1.02 / 16.03</td>
-      <td>1.09 / 67.72</td>
-      <td>0.88 / 95.97</td>
-      <td>1.45 / 99.37</td>
-      <td>4.43 / 99.58</td>
-      <td>3.78 / 97.13</td>
-      <td>1.13 / 96.23</td>
-      <td>1.54 / 92.47</td>
-      <td>2.47 / 81.73</td>
+      <td>Threshold</td>
+      <td>61.8</td>
+      <td>68.9</td>
+      <td>72.7</td>
+      <td>74.2</td>
+      <td>76.6</td>
+      <td>76.3</td>
+      <td>71.7</td>
+      <td>65.2</td>
+      <td>65.2</td>
    </tr>
    <tr>
-      <td>Provide estimator</td>
-      <td><b>0.19 / 93.03</td>
-      <td><b>0.79 / 96.45</td>
-      <td><b>0.05 / 98.97</td>
-      <td><b>1.43 / 97.87</td>
-      <td><b>0.89 / 96.82</td>
-      <td><b>0.30 / 90.12</td>
-      <td><b>2.58 / 96.23</td>
-      <td><b>3.04 / 94.79</td>
-      <td><b>6.27 / 95.96</td>
+      <td>Ver. rate(%)</td>
+      <td><b>80.73</td>
+      <td><b>97.90</td>
+      <td><b>99.69</td>
+      <td><b>100</td>
+      <td><b>100</td>
+      <td><b>100</td>
+      <td><b>99.24</td>
+      <td><b>100</td>
+      <td><b>99.37</td>
    </tr>
 </table>
 
