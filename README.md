@@ -89,27 +89,27 @@ We shows the comparsion of previous protocol and our new protocol. Previous prot
    </tr> -->
    <tr>
       <td>Face++</td>
-      <td>9.81</td>
-      <td>19.12</td>
-      <td>23.5</td>
-      <td>24.57</td>
-      <td>22.03</td>
-      <td>36.32</td>
-      <td>50.77</td>
-      <td>63.11</td>
-      <td>72.33</td>
+      <td>13.7</td>
+      <td>20.8</td>
+      <td>22.1</td>
+      <td>24.1</td>
+      <td>21.6</td>
+      <td>39.0</td>
+      <td>52.5</td>
+      <td>64.0</td>
+      <td>74.3</td>
    </tr>
    <tr>
       <td>Provide estimator</td>
-      <td><b>1.69</td>
-      <td><b>4.1</td>
-      <td><b>8.52</td>
-      <td><b>14.21</td>
-      <td><b>18.02</td>
-      <td><b>31.65</td>
-      <td><b>39.32</td>
-      <td><b>52.14</td>
-      <td><b>61.61</td>
+      <td><b>1.8</td>
+      <td><b>4.0</td>
+      <td><b>8.3</td>
+      <td><b>13.5</td>
+      <td><b>18.1</td>
+      <td><b>32.1</td>
+      <td><b>42.4</td>
+      <td><b>55.0</td>
+      <td><b>68.4</td>
    </tr>
    <tr>
       <td colspan="10" align="center">Absolute Error / Verification Rate (%)</td>
