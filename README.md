@@ -48,7 +48,7 @@ The steps of using the Face++ APIs for estimating the age of a face image are as
 ```
 ## Use of Age estimator
 Use our age estimator, first download the pretrained weight:
-[Age estimator](https://drive.google.com/file/d/1d8iVZO0LTyOdrN4T94Gvq79CIriwpTVS/view?usp=sharing)
+[Age estimator](https://drive.google.com/file/d/1_CIp-diGwfBgc-aRBfRkAZP4QuVmxXmf/view?usp=sharing)
 
 Put the pretrained under  `/age_estimator/weights/mean_variance_ffhq`
 
