@@ -9,7 +9,7 @@
 
 **Samples:** *Made by the AgeTransGAN for age regression and progression. The face in the red bbox is the input, and the rest are generated aged faces, all in 10242 pixels.*
 
-**Abstract:** *We propose the AgeTransGAN for facial age transformation. The proposed AgeTransGAN is composed of an encoder, a decoder, a discriminator, an age classifier and a face expert. The encoder converts an input image with a target age label to an identity latent code and an age latent code. The decoder, developed upon the StyleGAN2 synthesis network, takes the identity latent code and the age latent code as input to generate a face which preserves the input identity and is at the target age. The discriminator is made of the proposed Conditional Multilayer Projection (CMP) for better age feature extraction by the incorporation of the target age label into the age feature. The age classifier enhances the desired age classification, and the face expert guarantees the preservation of the input identity on the output. The novelties of this study include the following: 1) The CMP discriminator built upon multilayer age feature fused with the label-conditional projection; 2) A new architecture developed on a latest style transfer network for achieving identity-preserving facial age progression and regression in a unified framework; 3) The high-resolution facial age transformation with a competitive performance compared to state-of-the-art approaches.*
+**Abstract:** *We propose the AgeTransGAN for facial age transformation and the improvements to the metrics for performance evaluation. The AgeTransGAN is composed of an encoder-decoder generator and a conditional multitask discriminator with an age classifier embedded. The generator exploits cycle-generation consistency, age classification and cross-age identity consistency to disentangle the identity and age characteristics during training. The discriminator fuses age features with the target age group label and collaborates with the embedded age classifier to warrant the desired age traits made on the generated images. As many previous work use the Face++ APIs as the metrics for performance evaluation, we reveal via experiments the inappropriateness of using the Face++ as the metrics for the face verification and age estimation of juniors. To rectify the Face++ metrics, we made the Cross-Age Face (CAF) dataset which contains 4000 face images of 520 individuals taken from their childhood to senior hood. The CAF is one of the very few datasets that offer much more images of the same individuals across large age gaps than the popular FG-Net.We use the CAF to rectify the face verification thresholds of the Face++ APIs across different age gaps. We also use the CAF and the FFHQ-Aging datasets to compare the age estimation performance of the Face++ APIs and an age estimator made by our own, and propose rectified metrics for performance evaluation. We compare the performance of the AgeTransGAN and state-of-the-art approaches by using the existing and rectified metrics.*
 
 
 
@@ -145,6 +145,11 @@ The table shows performance on FFHQ-Aging for transferring Group-5 to other 9 gr
 [FFHQ-4Groups](https://drive.google.com/file/d/1YkibK_42YiumJePqUagZqlYkunKNv8B7/view?usp=sharing)
 
 [FFHQ-10Groups](https://drive.google.com/file/d/1a3GXTGjch9rl-_JRiIfM5cbM1jCPpQHY/view?usp=sharing)
+
+## Cross Age Face dataset
+The dataset consists of 4000 images of  520 subject collected from the internet. Each image is labeled with ground-truth age. The numbers of subjects in group 0 ~ group 9 are 341, 364, 312, 399, 469, 515, 435, 296 ,195, and 67, respectively.
+Unprocess images is avaliable here
+[CAF dataset](https://drive.google.com/file/d/1gqlmBMYTleqtmEXDb-wELha_DZD3VLqi/view?usp=sharing)
 
 ## Training Networks
 Expected training times for the default configuration using Nvidia Titan RTX GPU:
