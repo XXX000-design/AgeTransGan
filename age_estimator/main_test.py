@@ -24,57 +24,6 @@ START_AGE = 0
 END_AGE = 100
 VALIDATION_RATE= 0.1
 
-def vgg_block(in_channels, out_channels, more=False):
-    blocklist = [
-        ('conv1', nn.Conv2d(in_channels, out_channels, kernel_size=3, stride=1, padding=1)),
-        ('relu1', nn.ReLU(inplace=True)),
-        ('conv2', nn.Conv2d(out_channels, out_channels, kernel_size=3, stride=1, padding=1)),
-        ('relu2', nn.ReLU(inplace=True)),
-    ]
-    if more:
-        blocklist.extend([
-            ('conv3', nn.Conv2d(out_channels, out_channels, kernel_size=3, stride=1, padding=1)),
-            ('relu3', nn.ReLU(inplace=True)),
-        ])
-    blocklist.append(('maxpool', nn.MaxPool2d(kernel_size=2, stride=2)))
-    block = nn.Sequential(OrderedDict(blocklist))
-    return block
-class VGG(nn.Module):
-    def __init__(self, classes=1000, channels=3):
-        super().__init__()
-        self.conv = nn.Sequential(
-            vgg_block(channels, 64),
-            vgg_block(64, 128),
-            vgg_block(128, 256, True),
-            vgg_block(256, 512, True),
-            vgg_block(512, 512, True),
-        )
-        self.fc1 = nn.Sequential(
-            nn.Linear(512*7*7, 4096),
-            nn.ReLU(inplace=True),
-            nn.Dropout(0.5, inplace=True),
-        )
-        self.fc2 = nn.Sequential(
-            nn.Linear(4096, 4096),
-            nn.ReLU(inplace=True),
-            nn.Dropout(0.5, inplace=True),
-        )
-        self.cls = nn.Linear(4096, 101)
-
-    def forward(self, x):
-        in_size = x.shape[0]
-        x = self.conv(x)
-        x = x.view(in_size, -1)
-        x = self.fc1(x)
-        x = self.fc2(x)
-        x = self.cls(x)
-        x = F.softmax(x, dim=1)
-        return x
-class VGG16_AGE(VGG):
-    def __init__(self, classes=101, channels=3):
-        super().__init__()
-        self.cls = nn.Linear(4096, 101)
-
 def predict(model, image):
 
     model.eval()
@@ -114,8 +63,7 @@ def main():
         all_num = 0
         all_MAE = 0
         all_age = 0
-        model = VGG16_AGE()
-        # model = resnet50_ft()
+        model = resnet50_ft()
         model.load_state_dict(torch.load(args.pred_model))
         model.eval()
         model.cuda()
