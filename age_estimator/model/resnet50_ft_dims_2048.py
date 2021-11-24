@@ -168,7 +168,7 @@ class Resnet50_ft(nn.Module):
         self.conv5_3_relu = nn.ReLU()
         self.pool5_7x7_s1 = nn.AvgPool2d(kernel_size=[7, 7], stride=[1, 1], padding=0)
         self.classifier = nn.Conv2d(2048, 8631, kernel_size=[1, 1], stride=(1, 1))
-        self.classage = nn.Conv2d(2048, 82, kernel_size=[1, 1], stride=(1, 1))
+        self.classage = nn.Conv2d(2048, 101, kernel_size=[1, 1], stride=(1, 1))
         self.classgage = nn.Conv2d(2048, 164, kernel_size=[1, 1], stride=(1, 1))
         self.fc = nn.Linear(101*1*1,101)
 
