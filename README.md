@@ -167,6 +167,7 @@ We compare the Face++ and ArcFace result while dealing with different age face
 
 ![Teaser image](./sup/Face++ verfication res.png)
 ![Teaser image](./sup/Arcface verfication res.png)
+
 The numbers are mean comfidence value of pairs face images, and black number present intra pairs, blue number present inter pairs
 
 We can notice that the confidence difference between intra and inter pairs become smaller when the age difference increases in two methods
