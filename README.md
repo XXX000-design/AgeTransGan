@@ -194,6 +194,6 @@ We use the same test set and our estimation mehtods
 
 and the qualitative comparison figure
 
-
+![Teaser image](sup/SOTA_fig.png)
 
 
