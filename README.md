@@ -190,5 +190,10 @@ We compare our result with following paper using their provided code and pre-tra
 > [Paper](https://arxiv.org/pdf/2102.02754.pdf)
 We use the same test set and our estimation mehtods
 
+![Teaser image](sup/SOTA_com.png)
+
+and the qualitative comparison figure
+
+
 
 
