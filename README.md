@@ -162,7 +162,8 @@ MORPH: 1 day 12 hours, CACD: 4 days
 
 FFHQ-Aging 4Groups: 24 days, FFHQ-Aging 10Groups: 31 days
 
-## Additional
+# Additional
+## Verification method
 We compare the Face++ and ArcFace result while dealing with different age face
 
 ![Teaser image](sup/ArcFace_v_r.png)
@@ -173,3 +174,21 @@ The numbers are mean comfidence value of pairs face images, and black number pre
 We can notice that the confidence difference between intra and inter pairs become smaller when the age difference increases in two methods
 
 Face++ still have larger confidence difference in those large age difference pairs.
+
+## Compare with SOTA method
+We compare our result with following paper using their provided code and pre-trained model
+> ** Lifespan Age Transformation Synthesis **
+> Roy Or-El, Soumyadip Sengupta, Ohad Fried, Eli Shechtman, Ira Kemelmacher-Shlizerman
+> ECCV 2020
+> [Paper](https://arxiv.org/pdf/2003.09764.pdf)
+> **Disentangled Lifespan Face Synthesis**
+> Sen He1, Wentong Liao, Michael Ying Yang, Yi-Zhe Song, Bodo Rosenhahn, Tao Xiang
+> ICCV 2021
+> [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/He_Disentangled_Lifespan_Face_Synthesis_ICCV_2021_paper.pdf)
+> **Only a Matter of Style: Age Transformation Using a Style-Based Regression Model**
+> Yuval Alaluf, Or Patashnik, Daniel Cohen-or
+> [Paper](https://arxiv.org/pdf/2102.02754.pdf)
+We use the same test set and our estimation mehtods
+
+
+
