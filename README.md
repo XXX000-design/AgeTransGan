@@ -192,7 +192,7 @@ We use the same test set and our estimation mehtods
 
 ![Teaser image](sup/SOTA_com.png)
 
-and the qualitative comparison figure
+and the qualitative comparison figure. Other hard samples compare with LATs are in sup file
 
 ![Teaser image](sup/SOTA_fig.png)
 
