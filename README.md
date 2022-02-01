@@ -175,6 +175,10 @@ We can notice that the confidence difference between intra and inter pairs becom
 
 Face++ still have larger confidence difference in those large age difference pairs.
 
+## Ablation study of loss function
+
+![Teaser image](sup/Loss_ablation.png)
+
 ## Compare with SOTA method
 We compare our result with following paper using their provided code and pre-trained model
 > ** Lifespan Age Transformation Synthesis **
