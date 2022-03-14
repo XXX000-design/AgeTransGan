@@ -77,38 +77,38 @@ The table shows performance on FFHQ-Aging for transferring Group-5 to other 9 gr
    </tr>
 <!--    <tr>
       <td>Raw data</td>
-      <td>8.79</td>
-      <td>18.03</td>
-      <td>24.38</td>
-      <td>26.02</td>
-      <td>26.46</td>
+      <td>8.8</td>
+      <td>18.0</td>
+      <td>24.4</td>
+      <td>26.0</td>
+      <td>26.5</td>
       <td>40.1</td>
       <td>51.9</td>
-      <td>64.65</td>
+      <td>64.7</td>
       <td>74.8</td>
    </tr> -->
    <tr>
       <td>Face++</td>
-      <td>13.7</td>
-      <td>20.8</td>
-      <td>22.1</td>
-      <td>24.1</td>
-      <td>21.6</td>
-      <td>39.0</td>
-      <td>52.5</td>
-      <td>64.0</td>
-      <td>74.3</td>
+      <td>8.3</td>
+      <td>17.7</td>
+      <td>21.7</td>
+      <td>24.6</td>
+      <td>21.1</td>
+      <td>37.8</td>
+      <td>50.3</td>
+      <td>65.8</td>
+      <td>75.7</td>
    </tr>
    <tr>
       <td>Provide estimator</td>
-      <td><b>1.8</td>
-      <td><b>4.0</td>
-      <td><b>8.3</td>
+      <td><b>1.1</td>
+      <td><b>4.5</td>
+      <td><b>8.8</td>
       <td><b>13.5</td>
-      <td><b>18.1</td>
-      <td><b>32.1</td>
-      <td><b>42.4</td>
-      <td><b>55.0</td>
+      <td><b>18.7</td>
+      <td><b>32.3</td>
+      <td><b>41.7</td>
+      <td><b>55.5</td>
       <td><b>68.4</td>
    </tr>
    <tr>
@@ -128,15 +128,15 @@ The table shows performance on FFHQ-Aging for transferring Group-5 to other 9 gr
    </tr>
    <tr>
       <td>Ver. rate(%)</td>
-      <td><b>80.73</td>
-      <td><b>97.90</td>
-      <td><b>99.69</td>
+      <td><b>80.26</td>
+      <td><b>96.46</td>
+      <td><b>95.91</td>
+      <td><b>95.76</td>
       <td><b>100</td>
       <td><b>100</td>
       <td><b>100</td>
-      <td><b>99.24</td>
-      <td><b>100</td>
-      <td><b>99.37</td>
+      <td><b>97.60</td>
+      <td><b>96.78</td>
    </tr>
 </table>
 
